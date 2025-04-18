@@ -171,6 +171,7 @@ int main(){
     cout<<"Is Queue Empty ? "<<(q.isEmpty() ? "Yes" : "No")<<endl;
     cout<<"Dequeue:"<<q.dequeue()<<endl;
     cout<<"Is Queue is Empty ? "<<(q.isEmpty() ? "Yes":"No")<<endl;
+    return 0;
 }
 4) Write a c++ code for implementing queue front and rear operation.
 #include <iostream>
@@ -433,6 +434,7 @@ int main(){
     for(int i=0;i<n;i++){
         cout<<arr[i]<<" ";
  }
+ return 0;
 }
 11) Write a c++ code for implementing quick sort.
 #include <iostream>
